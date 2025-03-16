@@ -191,7 +191,7 @@ async def reg_9(message: Message, state: FSMContext):
             return
         await state.update_data(district=message.text.title())
         data = await state.get_data()
-        path_video = '/root/bots/deploy_bot/video.mp4'
+        path_video = '/root/bots/sea_dream_bot/video.mp4'
         await message.answer_video_note(video_note=FSInputFile(path=path_video))
         await message.answer(
             "Спасибо за доверие!\nЯ уже ищу лучшего брокера для работы с вами 👌",
