@@ -21,7 +21,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-    git clone https://github.com/pigva91/SeaDreamBot.git
+    git clone https://github.com/pigva91/sea_dream_bot.git
 
 2. Создайте виртуальное окружение и активируйте его:
     python -m venv venv
